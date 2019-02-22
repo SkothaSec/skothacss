@@ -15,8 +15,8 @@
     "css",
     "framework"
   ],
-  "author": "Christian Gorke",
-  "license": "ISC",
+  "author": "Christian Gorke <dev.cmgorke@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SkothaSec/skothacss/issues"
   },
