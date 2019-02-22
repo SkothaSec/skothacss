@@ -1,0 +1,24 @@
+{
+  "name": "skothacss",
+  "version": "1.0.0",
+  "description": "css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkothaSec/skothacss.git"
+  },
+  "keywords": [
+    "style",
+    "css",
+    "framework"
+  ],
+  "author": "Christian Gorke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkothaSec/skothacss/issues"
+  },
+  "homepage": "https://github.com/SkothaSec/skothacss#readme"
+}
