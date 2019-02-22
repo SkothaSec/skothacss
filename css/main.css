@@ -1,3 +1,26 @@
+/* Color variable list */
+/*
+* usage: 
+* Classes in HTML: 
+*   .skColor-<color name>-<tone>-<alpha>
+*   
+*   example:
+*        .skColor-olive-dark-high
+* 
+* CSS value: 
+*   color('<color name>_<tone>_<alpha>', true);
+*   color('<color name>', true);
+*
+*   exmples:
+*       background-color: color('olive_dark_high', true);
+*       color: color('olive', true); 
+*/
+/* global palette map variable */
+/* Prefix for color classes*/
+/* For generating pallete */
+/** Temp loop to cache values **/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 /*******************************************************************************
 OMCSS Helper Classes - OMCSS Framework
 *******************************************************************************/
@@ -196,10 +219,10 @@ OMCSS Helper Classes - OMCSS Framework
 * Color
 */
 .txt-white {
-  color: #FFF; }
+  color: white; }
 
 .txt-black {
-  color: #000; }
+  color: black; }
 
 /**
 * Text Alignment
