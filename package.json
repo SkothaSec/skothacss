@@ -2,7 +2,7 @@
   "name": "skothacss",
   "version": "1.0.0",
   "description": "css framework",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
@@ -15,8 +15,8 @@
     "css",
     "framework"
   ],
-  "author": "Christian Gorke",
-  "license": "ISC",
+  "author": "Christian Gorke <dev.cmgorke@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SkothaSec/skothacss/issues"
   },
