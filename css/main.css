@@ -1,3 +1,4 @@
+.tester {}
 /* Color variable list */
 /*
 * usage: 
@@ -223,6 +224,9 @@ OMCSS Helper Classes - OMCSS Framework
 
 .txt-black {
   color: black; }
+
+.txt-olive {
+  color: color("color-olive", true); }
 
 /**
 * Text Alignment
