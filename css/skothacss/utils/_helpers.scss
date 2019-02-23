@@ -234,6 +234,10 @@ OMCSS Helper Classes - OMCSS Framework
 .txt-black {
   color: $color-black;
 }
+
+.txt-olive {
+  color: color('color-olive', true);
+}
 /**
 * Text Alignment
 */

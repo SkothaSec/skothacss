@@ -1,0 +1,96 @@
+//Grid System Breakpoints - screen size
+
+$screen-medium: 600px;
+$screen-large: 1024px;
+
+
+//Colors
+/* Color variable list */
+// TODO: update values, these are temporary.
+
+$color-green: green;
+$color-olive: olive;
+$color-orange: orange;
+$color-saddle: tan;
+$color-gold: gold;
+$color-blue: blue;
+$color-white: white;
+$color-black: black;
+
+/*
+* usage: 
+* Classes in HTML: 
+*   .skColor-<color name>-<tone>-<alpha>
+*   
+*   example:
+*        .skColor-olive-dark-high
+* 
+* CSS value: 
+*   color('<color name>_<tone>_<alpha>', true);
+*   color('<color name>', true);
+*
+*   exmples:
+*       background-color: color('olive_dark_high', true);
+*       color: color('olive', true); 
+*/
+$palette: (
+    colors: (
+        "jungle": $color-green,
+        "olive": $color-olive,
+        "sunset": $color-orange,
+        "saddle": $color-saddle,
+        "gold": $color-gold,
+        "sky": $color-blue
+    ),
+    tones: (
+        ‘dark’: 10,
+        ‘normal’: 0,
+        ‘light’: -10
+    ),
+    alpha: (
+        ‘low’: 0.4,
+        ‘medium’: 0.6,
+        ‘high’: 0.8
+    ),
+    mix: (
+        ‘color’: #ff0000,
+        ‘keep’: 100%
+    )
+);
+
+// Debug the color pallette turn off before release
+$palette_debug : true;
+
+/* global palette map variable */
+$skothaPalette: ();
+
+/* Prefix for color classes*/
+$color-class-prefix: 'color-';
+
+/* For generating pallete */
+/** Temp loop to cache values **/
+$vc: '';
+
+
+
+//Font Family
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+$font-sans-serif: sans-serif;
+$font-serif: serif;
+$font-mono: monospace;
+$font-cursive: cursive;
+
+$font-primary: "Open Sans";
+$font-secondary: sans-serif;
+$font-brand: "Pacifico";
+
+//Spacing
+
+$space-1: 0.5rem; //5px
+$space-2: 1rem; //10px
+$space-3: 1.5rem;
+$space-4: 2rem;
+$space-5: 2.5rem;
